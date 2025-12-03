@@ -1,6 +1,6 @@
-# HyperSpace Service
+# HyperSpace Extension
 
-HyperSpace Service provides a macOS host app (headless agent) and a system extension (HyperSpace Tunnel) that together expose a TUN interface through Apple’s NEPacketTunnelProvider. It allows external apps (Java, Python, etc.) to interact with the tunnel through two local servers:
+HyperSpace Extension provides a macOS host app (headless agent) and a system extension (HyperSpace Tunnel) that together expose a TUN interface through Apple’s NEPacketTunnelProvider. It allows external apps (Java, Python, etc.) to interact with the tunnel through two local servers:
 
 - Command Server (TCP, 127.0.0.1:5500) – control plane (lifecycle + configuration, JSON protocol)
 - Data Server (UDP, 127.0.0.1:5501) – data plane (raw IPv4/IPv6 packets)
@@ -118,7 +118,7 @@ The command server will send a JSON response when specific tunnel events occur.
 - External applications will receive packets on port `5502`
 - All DNS queries are captured and forwarded to your external application for processing. This behavior can be toggled on and off using the `turnOnDNS` and `turnOffDNS` commands.
   
-The Data Server moves raw IP packets between your external application and the TUN interface. The external application will send raw IPv4 packets as datagrams to `127.0.0.1:5501`. HyperSpace Service validates the datagram and injects it into the TUN interface. Outgoing packets from the TUN interface will be sent to `127.0.0.1:5502`.
+The Data Server moves raw IP packets between your external application and the TUN interface. The external application will send raw IPv4 packets as datagrams to `127.0.0.1:5501`. HyperSpace Extension validates the datagram and injects it into the TUN interface. Outgoing packets from the TUN interface will be sent to `127.0.0.1:5502`.
 
 ---
 
