@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8F618B512E4E7FBC00A8F2DC"
-               BuildableName = "HyperSpace Service.app"
+               BuildableName = "HyperSpace Extension.app"
                BlueprintName = "HyperSpaceService"
-               ReferencedContainer = "container:HyperSpaceService.xcodeproj">
+               ReferencedContainer = "container:HyperSpaceExtension.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8F618B512E4E7FBC00A8F2DC"
-            BuildableName = "HyperSpace Service.app"
+            BuildableName = "HyperSpace Extension.app"
             BlueprintName = "HyperSpaceService"
-            ReferencedContainer = "container:HyperSpaceService.xcodeproj">
+            ReferencedContainer = "container:HyperSpaceExtension.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8F618B512E4E7FBC00A8F2DC"
-            BuildableName = "HyperSpace Service.app"
+            BuildableName = "HyperSpace Extension.app"
             BlueprintName = "HyperSpaceService"
-            ReferencedContainer = "container:HyperSpaceService.xcodeproj">
+            ReferencedContainer = "container:HyperSpaceExtension.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
