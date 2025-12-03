@@ -61,10 +61,10 @@ final class HyperSpaceController {
         // Configure protocol
         let proto = NETunnelProviderProtocol()
         proto.providerBundleIdentifier = providerBundleID
-        proto.serverAddress = "HyperSpace Service"
+        proto.serverAddress = "HyperSpace Extension"
 
         mgr.protocolConfiguration = proto
-        mgr.localizedDescription = "HyperSpace Service"
+        mgr.localizedDescription = "HyperSpace Extension"
         mgr.isEnabled = true
 
         // Save then reload to get an active manager instance

@@ -36,7 +36,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8F618B522E4E7FBC00A8F2DC /* HyperSpace Service.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HyperSpace Service.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F618B522E4E7FBC00A8F2DC /* HyperSpace Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HyperSpace Extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F618B652E4E800900A8F2DC /* com.whiteStar.HyperSpaceService.HyperSpaceTunnel.systemextension */ = {isa = PBXFileReference; explicitFileType = "wrapper.system-extension"; includeInIndex = 0; path = com.whiteStar.HyperSpaceService.HyperSpaceTunnel.systemextension; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F618B672E4E800900A8F2DC /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -120,7 +120,7 @@
 		8F618B532E4E7FBC00A8F2DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8F618B522E4E7FBC00A8F2DC /* HyperSpace Service.app */,
+				8F618B522E4E7FBC00A8F2DC /* HyperSpace Extension.app */,
 				8F618B652E4E800900A8F2DC /* com.whiteStar.HyperSpaceService.HyperSpaceTunnel.systemextension */,
 			);
 			name = Products;
@@ -158,7 +158,7 @@
 			packageProductDependencies = (
 			);
 			productName = HyperSpaceService;
-			productReference = 8F618B522E4E7FBC00A8F2DC /* HyperSpace Service.app */;
+			productReference = 8F618B522E4E7FBC00A8F2DC /* HyperSpace Extension.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8F618B642E4E800900A8F2DC /* HyperSpaceTunnel */ = {
@@ -321,7 +321,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0.23;
+				MARKETING_VERSION = 1.0.24;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -381,7 +381,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0.23;
+				MARKETING_VERSION = 1.0.24;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -404,6 +404,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HyperSpaceService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "HyperSpace Extension";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSSystemExtensionUsageDescription = "HyperSpace needs to install its network system extension to provide VPN tunneling.";
@@ -411,9 +412,9 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.23;
+				MARKETING_VERSION = 1.0.24;
 				PRODUCT_BUNDLE_IDENTIFIER = com.whiteStar.HyperSpaceService;
-				PRODUCT_NAME = "HyperSpace Service";
+				PRODUCT_NAME = "HyperSpace Extension";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -438,6 +439,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HyperSpaceService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "HyperSpace Extension";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSSystemExtensionUsageDescription = "HyperSpace needs to install its network system extension to provide VPN tunneling.";
@@ -445,9 +447,9 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.23;
+				MARKETING_VERSION = 1.0.24;
 				PRODUCT_BUNDLE_IDENTIFIER = com.whiteStar.HyperSpaceService;
-				PRODUCT_NAME = "HyperSpace Service";
+				PRODUCT_NAME = "HyperSpace Extension";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = HyperSpaceService;
 				REGISTER_APP_GROUPS = YES;
@@ -472,7 +474,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HyperSpaceTunnel/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = HyperSpaceTunnel;
+				INFOPLIST_KEY_CFBundleDisplayName = "HyperSpace Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSSystemExtensionUsageDescription = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,7 +482,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.23;
+				MARKETING_VERSION = 1.0.24;
 				PRODUCT_BUNDLE_IDENTIFIER = com.whiteStar.HyperSpaceService.HyperSpaceTunnel;
 				PRODUCT_NAME = "$(inherited)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -512,7 +514,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HyperSpaceTunnel/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = HyperSpaceTunnel;
+				INFOPLIST_KEY_CFBundleDisplayName = "HyperSpace Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSSystemExtensionUsageDescription = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -520,7 +522,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.23;
+				MARKETING_VERSION = 1.0.24;
 				PRODUCT_BUNDLE_IDENTIFIER = com.whiteStar.HyperSpaceService.HyperSpaceTunnel;
 				PRODUCT_NAME = "$(inherited)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
